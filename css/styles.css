@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.brand img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 12px 6px;
+    display: block;
+}
+
+.container{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    /* box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+   position: absolute;
+   top: -10px;
+    left: 500px;
+    
+}
+nav ul  .right-list{
+   position: absolute;
+   top: 20px;
+   left: 750px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 30px;
+    cursor: pointer;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+nav ul li .icon1{
+    color: brown;
+    font-size: 25px;
+    margin: 0px 3px;
+}
+
+
+nav ul li .icon2{
+    color: brown;
+    font-size: 25px;
+    margin: 0px 38px;
+}
+
+nav ul li .icon3{
+    color: brown;
+    font-size: 25px;
+    margin: 0px 12px;
+}
+
+nav ul li .icon4{
+    color: brown;
+    font-size: 25px;
+    margin: 0px 7px;
+}
+
+nav ul li .right-nav{
+    margin-left: 270px;
+
+}
+
+nav ul li .right-nav .login-nav{
+    padding: 0px 4px;
+}
+a:hover{
+    color: #C36A2D;
+}
+i:hover{
+    color: #C36A2D;
+}
+.header{
+    color: #212121;
+    margin: 60px 125px;
+    font-size: 27px;
+}
+
+
+
+/* IMAGE PART*/
+
+
+.img-container{
+    position: relative;
+    top: -25px;
+    justify-content: center;
+    /* left: 220px; */
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+.img-container .image-44{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+.img-container .image-45{
+    position:absolute;
+    top: 10px;
+    left: 270px;
+    font-weight: bold;
+    color: white;
+ 
+}
+
+
+
+.img-container .image-46{
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.image11{
+    width: 370px;
+    height: 340px;
+    padding: 0px;
+    margin: 0px -3px;
+    transition: 0.2s linear; 
+    
+    
+}
+.image11:hover{
+    width: 35%;
+}
+
+.image22{
+    width: 370px;
+    height: 340px;
+    padding: 0px;
+    margin: 0px -3px;
+    transition: 0.2s linear;
+}
+.image22:hover{
+    width: 35%;
+    
+}
+
+.image33{
+    width: 370px;
+    height: 340px;
+    padding: 0px;
+    margin: 0px -3px;
+    transition: 0.2s linear;
+}
+.image33:hover{
+    width: 35%;
+}
+
+.img-container::before{
+    content: 'GOALS';
+    width: 30%;
+    height: 25px;
+    /* line-height: 25px; */
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px 4px;
+}
